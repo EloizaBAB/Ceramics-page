@@ -13,7 +13,7 @@ function getCurrentLocation(event) {
   navigator.geolocation.getCurrentPosition(showPlaces);
 }
 /**
- * We need to give permission to our computer or nnnnphone to use our location in order for this code to work. Once we have allowed that, the code uses the information about our location to find out the temperature and display it on the screen.
+ * We need to give permission to our computer or nphone to use our location in order for this code to work. Once we have allowed that, the code uses the information about our location to find out the temperature and display it on the screen.
  * @param {number} position based on the latitude and longitude.
  * Used Axios, it has the ability to make HTTP requests from the browser and handle the transformation of request and response data.
  * I used the AJAX technique to this web application be able to make quick, incremental updates to the user interface without reloading the entire browser page. This makes the application faster and more responsive to user actions.
